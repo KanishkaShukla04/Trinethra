@@ -79,14 +79,15 @@ export async function POST(req: NextRequest) {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          model,
-          prompt,
-          stream: false,
-          options: {
-            temperature: 0.2, // Low temperature for consistent structured output
-            num_predict: 2000,
-          },
-        }),
+  model,
+  prompt,
+  stream: false,
+  format: "json",
+  options: {
+    temperature: 0.1,
+    num_predict: 3000,
+  },
+}),
       });
     } catch {
       return NextResponse.json(
@@ -107,6 +108,8 @@ export async function POST(req: NextRequest) {
 
     const ollamaData = await ollamaResponse.json();
     const rawText: string = ollamaData.response || "";
+    console.log("RAW OLLAMA RESPONSE:");
+    console.log(rawText);
 
     // Parse with fallback error
     let analysis: AnalysisResult;
