@@ -85,35 +85,46 @@ Human Review Interface
 
 ### 1. Clone Repository
 
+```bash
 git clone <repository-url>
-
 cd trinethra
+```
 
 ### 2. Install Dependencies
 
+```bash
 npm install
+```
 
 ### 3. Install Ollama
 
-Download and install Ollama:
+Download and install Ollama from:
 
 https://ollama.com
 
 ### 4. Pull Model
 
+```bash
 ollama pull llama3.2
+```
 
 ### 5. Verify Ollama
 
+```bash
 curl http://localhost:11434/api/tags
+```
 
 ### 6. Run Application
 
+```bash
 npm run dev
+```
 
 Open:
 
+```text
 http://localhost:3000
+```
 
 ---
 
@@ -139,6 +150,18 @@ Approach:
 * Analysis is labelled as AI-generated
 * Human review is required
 * Findings are presented as suggestions rather than verdicts
+
+---
+
+## Demo Videos
+
+### Application Demo
+
+https://drive.google.com/file/d/1uz0qjfs_9APacgoiavLLgLfUrZ5gtDwE/view
+
+### Code Walkthrough
+
+https://drive.google.com/file/d/1J1KEVu5OV6qVjGNTWXMwEzwknVDA-GTe/view
 
 ---
 
