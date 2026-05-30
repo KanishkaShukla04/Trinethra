@@ -1,0 +1,37 @@
+{
+  "rubric": {
+    "description": "1-10 Fellow Performance Rubric used by DeepThought psychology interns",
+    "levels": {
+      "1-2": {
+        "label": "Non-Functional",
+        "description": "Fellow is not showing up, not engaging, or actively causing harm. No positive behavioral evidence."
+      },
+      "3-4": {
+        "label": "Below Expectations",
+        "description": "Fellow is present but passive. Takes instructions but does not initiate. Supervisor has low confidence. Little to no systems building visible."
+      },
+      "5-6": {
+        "label": "Functional",
+        "description": "Fellow is reliable and productive. Completes assigned tasks. Some initiative visible. Supervisor is satisfied but not impressed. Limited evidence of beyond-role behavior."
+      },
+      "7-8": {
+        "label": "Strong",
+        "description": "Fellow is proactive, trusted, and building visible systems. Supervisor references Fellow unprompted. Evidence of ownership, cross-functional coordination, and team behavior change."
+      },
+      "9-10": {
+        "label": "Exceptional",
+        "description": "Fellow is operating at a level beyond the role. Supervisor gives strong unprompted endorsements. Clear evidence of lasting systems, behavior change in others, and measurable business impact."
+      }
+    }
+  },
+  "assessment_dimensions": [
+    "Task Completion & Reliability",
+    "Initiative & Proactiveness",
+    "Systems Building",
+    "Team Behavior Change",
+    "Supervisor Trust & Relationship",
+    "Cross-functional Coordination",
+    "Communication Quality",
+    "Problem Diagnosis Accuracy"
+  ]
+}
